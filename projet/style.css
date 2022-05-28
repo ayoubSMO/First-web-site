@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Abel|Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+#TOUT {
+	background: black ;
+	position: relative;
+	top: 390px ;
+	filter: opacity(60%);
+}
+
+
+
+#copyright {
+	color: white ;
+	text-align: center;
+	position: relative;
+	top : 20px;
+	font-family: 'Abel', sans-serif;
+	opacity: 10px;
+	width: auto;
+	font-size: 10px;
+}
+#copyright:hover {
+	color: #B40404;
+}
+
+#Me {
+	color: white ;
+	text-align: center;
+	position: relative;
+	top : 70px;
+	font-family: 'Abel', sans-serif;
+	font-size: 10px;
+}
+
+.name:hover {
+	color: #B40404;
+}
+
+#Contact {
+	display: inline-block;
+	position: relative;
+	color: white; 
+	font-size: 10px;
+	left: 50px;
+	bottom: 40px;
+	font-family: 'Exo', sans-serif;
+
+}
+#contact {
+	font-size: 30px;
+	position: relative;
+	bottom : 20px;
+	left: 22px;
+	font-family: 'Abel', sans-serif;
+	animation-name: intro ;
+	animation-duration: 5s;
+
+}
+
+#outil {
+	font-size: 30px;
+	position: relative;
+	bottom : 20px;
+	right: 5px;
+	font-family: 'Exo', sans-serif;
+	animation-name: intro ;
+	animation-duration: 5s;
+}
+
+li {
+	padding: 7px;
+	text-align: center;
+	color: black;
+}
+
+li a  {
+	color: white ; 
+}
+
+li p {
+	color: white ;
+}
+
+#Outil {
+	display: inline-block;
+	position: relative;
+	color: white; 
+	font-size: 10px;
+	text-align: center;
+	left: 1000px;
+	bottom : 60px;
+	font-family: 'Exo', sans-serif;
+}
+
+#testligne {
+	position: relative;
+	color: white;
+	text-align: center;
+	background: green;
+	top : 215px;
+	font-family: 'Abel', sans-serif;
+}
+
+body {
+	background-image: url(test3.jpg) ;
+}
+
+#welcome {
+	color: white;
+	text-align: center;
+	position: relative;
+	font-size: 25px;
+	bottom :120px;
+	font-family: 'Orbitron', sans-serif;
+	animation-name: intro ;
+	animation-duration: 5s;
+
+}
+
+#welcome p {
+	letter-spacing: 5px;
+}
+
+#Games {
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	color: white ;
+	text-align: center;	
+}
+
+#Games a {
+	color: white ; 
+	padding: 1px;
+}
+
+#x {
+	position: relative;
+	width: 70px;
+	right: 58px;
+	bottom :10px;
+	border : 1.5px solid green ;
+	border-radius: 100%;
+	animation-name: intro ;
+	animation-duration: 2s;
+}
+
+#x:hover {
+	filter: opacity(60%);
+	color: red;
+}
+
+#y {
+	position: relative;
+	width: 70px;
+	left: 60px;
+	bottom: 10px;
+    border : 1.5px solid green ;
+    border-radius: 100%;
+    animation-name: intro ;
+	animation-duration: 2s;
+}
+
+#y:hover {
+	filter: opacity(60%);
+	color: red;
+}
+
+.Links:hover {
+	color : red;
+}
+
+#Choice {
+	position: relative;
+	top:50px;
+}
+
+
+@keyframes intro {
+  0%   {color: transparent;}
+  100% {}
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Jeux Rock Paper Scissors</title>
+    <link rel="stylesheet" href="cssRPS.css">
+     
+</head>
+<body>
+    <header>
+    <h1>Round:</h1><center><p id="round"></p></center>
+    <p id="Scoreuser">User Score !</p>
+    <p id="Scorecomp">computer Score !</p>
+    <p id="Score1"></p>
+    <p id="Score2"></p>
+    </header>
+<div class="board">
+    <div id="user-case" class="case"><img src="YOU.png" width="90" class="YOU"></div>
+    <div id="computer-case" class="case"><img src="robot.png" width="70" class="robot"></div>
+    <span id="user-score">0</span>_<span id="computer-score">0</span>
+</div>
+
+<div class="result">
+    <p id="result">TRY YOUR CHANCE !</p>
+    <h2 id="Show1"></h2>
+	<h2 id="Show2"></h2>
+	<h2 id="MESSAGE"></h2>
+</div>
+<div class="choix">
+    <div class="choix_jeux" id="r">
+        <img src="rock.png" width="120"  alt="rock">
+    </div>
+    <div class="choix_jeux" id="p">
+        <img src="hand.png" width="120" alt="hand">
+    </div>
+    <div class="choix_jeux" id="s">
+        <img src="scissor.png" width="120" alt="scissor">
+    </div>
+</div>
+
+<div class="middle" ><p id="boutton1" onclick="location.reload()">RELOAD !</p>
+    <p><a href="sitewebindex.html" id="boutton2">HOME</a></p>
+</div>
+<script src="jsRPS.js"></script>
+</body>
+</html>

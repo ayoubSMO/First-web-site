@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Orbitron');
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(test3.jpg);
+}
+
+#TOUT {
+	background-image: url(test.jpg);
+	position: relative;
+	text-align: center;
+	top : 150px;
+	padding-top: 200px;
+	padding-bottom: 10px;
+}
+
+#TITLE {
+	color: white ;
+	position: relative;
+	bottom: 150px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 20px;
+}
+
+#play {
+	color: #2E2E2E;
+	position: relative;
+	bottom: 60px;
+	width: 120px;
+	font-family: 'Orbitron', sans-serif;
+}

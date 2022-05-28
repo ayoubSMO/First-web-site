@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Orbitron');
+
+*{
+  box-sizing: border-box
+}
+
+#TOUT {
+  background-image: url(test.jpg);
+  position: relative;
+  text-align: center;
+  top : 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+     
+body {
+  background-image: url(test3.jpg);
+  filter: opacity(80%);
+}
+
+table {
+  width: 300px;
+  overflow: hidden;
+  margin: 50px auto 50px auto;
+  border-collapse: collapse;
+}
+            
+table td {
+  float: left;
+  width: 90px;
+  height: 80px;
+  border: 2px solid black;
+  font-family: sans-serif;
+  filter: opacity(70%);
+  font-size: 55px;
+  position: relative;
+  bottom:10px;
+  text-align: center;
+  cursor: pointer;
+
+  }
+   
+
+table tr:first-child td {
+  border-top: hidden;
+}
+
+table tr:last-child td {
+  border-bottom: hidden;
+}
+
+table tr td:first-child {
+  border-left: hidden;
+}
+
+table tr td:last-child {
+  border-right: hidden;
+}
+
+
+.win{
+  background : white;
+  filter: blur(1px);
+  color: black;
+ }
+
+
+#Win_message {
+  position: relative;
+  text-align: center;
+  top : 350px;
+  right: 10px;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#User1_Turn {
+  position: relative;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  right: 10px; 
+  font-size: 25px;
+}
+
+#m {
+  width: 60px;
+  position: relative;
+  right: 350px;
+  bottom: 200px;
+}
+
+#n {
+  width: 60px;
+  position: relative;
+  left: 300px;
+  bottom: 200px;
+  cursor: pointer;
+}
